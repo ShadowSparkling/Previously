@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selectors in CSS</title>
+    <style>
+        /* element selector in CSS */
+        p{color: white;
+            background-color: black;
+        }
+
+            /* ID selector in CSS */
+            #blue{color:blue;font-size: large;}
+
+            /* Class selector in CSS */
+            .p{ color:red;}
+
+            /* Group selector in CSS */
+            footer, span{ background-color: green;
+        color: blanchedalmond;}
+
+    /* The one close to the </head> tag is given precedence     */
+    </style>
+</head>
+<body>
+    <H1>This is gonna be fun.</H1>
+    <p id="blue">This will be BLUE.</p>  
+          
+    <p>this is another paragraph.</p>
+    
+    <p class="blue p">This will be BLUE.</p>
+        <div class="container">
+            <span>the below one is FOOTER</span>
+            <footer>this is footer.</footer>
+        </div>
+</body>
+</html>

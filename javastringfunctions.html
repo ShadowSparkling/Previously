@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript String Functions</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    
+    <script>
+    var str = "This is a string";
+    console.log(str);
+
+    // First occurence of a substring
+    // var position = str.indexOf('is');
+    // console.log(position)
+
+    // Last occurence of a substring
+    // position = str.lastIndexOf('is');
+    // console.log(position)
+
+    // Both indexOf(), and lastIndexOf() return -1 if the text is not found:
+
+
+
+    // Substring from a string
+    // var substr = str.slice(1,7);
+//     slice() extracts a part of a string and returns the extracted part in a new string.
+// The method takes 2 parameters: the start position, and the end position (end not included).
+// If you omit the second parameter, the method will slice out the rest of the string:
+
+
+
+    // var substr = str.substring(1,7);
+//     substring() is similar to slice().
+// The difference is that substring() cannot accept negative indexes.
+
+    var substr1 = str.substr(1,8);
+//     substr() is similar to slice().
+// The difference is that the second parameter specifies the length of the extracted part.
+    console.log(substr1)
+    
+    // var replaced = str.replace('string', 'Harry');
+    // To replace case insensitive, use a regular expression with an /i flag (insensitive):
+
+
+    // console.log(str)
+    // console.log(replaced)
+
+    // console.log(str.toUpperCase());
+    // console.log(str.toLowerCase());
+    // var newString = str.concat('New String')
+    // console.log(newString)
+    // var strWithWhitespaces = "   this contains        whitespaces   ";
+    // console.log(strWithWhitespaces)
+    // console.log(strWithWhitespaces.trim())
+
+        let text = "5";
+        let padded = text.padStart(4,0);
+        console.log(padded);
+
+    // var char2 = str.charAt(2);
+    // var char2 = str.charCodeAt(2); // Not very important
+    // console.log(char2)
+
+    console.log(str[3])
+
+    // A string can be converted to an array with the split() method:
+    // text.split(",")    // Split on commas
+    // text.split(" ")    // Split on spaces
+    // text.split("|")    // Split on pipe
+
+
+
+    </script>
+</body>
+</html>

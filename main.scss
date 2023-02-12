@@ -1,0 +1,74 @@
+@import 'config';
+@import 'home';
+@import 'menu';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'responsive';
+
+body{
+    
+    background: $primary-color;
+    color: set-text-color($primary-color);
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3rem;
+
+}
+
+h1,h2,h3{
+    font-weight: 400;
+}
+
+a{
+    color: set-text-color($primary-color);
+    text-decoration: none;
+
+}
+.text-secondary{
+    margin: 5px;
+    color: rgb(251, 255, 0);
+}
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+
+    .social-icons{
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+
+        a{
+            padding:  0.4rem;
+            @include transition-ease;
+
+            &:hover{
+                color: $secondary-color;
+            }
+            a.active{
+                color: green;
+            }
+        }
+
+    }
+}
+
+
+
+footer{
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 2rem;
+    text-align: right;
+    padding: 1rem;
+    color: set-text-color($primary-color);
+}

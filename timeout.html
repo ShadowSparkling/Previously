@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeOut and Interval FUNCTIONS</title>
+</head>
+<body>
+    <div class="container">
+        <p>This is a container.</p>
+        Time now is <span id="time"></span>
+    </div>
+
+    <script>
+        console.log("This will be about Interval FUNCTIONS")
+        // setTimeout--> Allows us to run the function once after the interval of time.
+        // clearTimeout--> Allows us to run the function repeatedly after the interval of time.
+
+        function greet(name, byeText){
+            console.log('Good morning '+ name + " " + byeText );
+
+        }
+        // timeOut= setTimeout(greet, 5000, "Sayak", "Take Care");
+        // console.log(timeOut);
+        // clearTimeout(timeOut);
+
+        // intervalId= setInterval(greet, 2000, "Sayak", "Take Care");
+        // clearInterval(intervalId);
+
+
+        // setTimeout(greet(),2000);  --> Wont ruin because you cant run a function inside setTimeout 
+
+        function displayTime(){
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innnerHTML = time;
+        }
+
+        setInterval(displayTime, 1000);
+
+    </script>
+</body>
+</html>

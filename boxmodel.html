@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        
+        *{box-sizing: border-box;
+            margin: 0;
+            padding: 0;        }
+
+body{
+background-color: cyan;
+}
+
+        .container{ 
+            background-color: blanchedalmond;
+            border: 3px solid blue;
+            width: 209px;
+            /* padding-right: 10px;
+            padding-left: 10px;
+            padding-top: -10px;
+            padding-bottom: 20px; */
+            
+            /* You can also do the padding like this  */
+
+            /* padding: 10px 43px 9px 40px;      padding/margin= top, right, bottom, left  */
+            padding: 43px 20px;               /*padding/margin = y(top/bottom) x(right/left) */
+            margin: 20px 30px;
+            border-radius: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1> Box mode in HTML </h1>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero rem beatae, magni labore excepturi!</p>
+    </div>
+
+    <div class="container">
+        <h1> Box mode in HTML </h1>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero rem beatae, magni labore excepturi!</p>
+        </div>
+
+    <div class="container">
+        <h1> Box mode in HTML </h1>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero rem beatae, magni laboreexcepturi!</p>
+        </div>
+
+</body>
+</html>

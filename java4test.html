@@ -1,0 +1,42 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>JAVA TEST</title>
+
+        </head>
+        <body>
+            <div class="container">
+                <script>
+                    function greet(name, greetText="Greetings from JS "){
+                        console.log(greetText + "" + name );
+                        console.log(name + " is a good guy.");
+                    }
+                    let greetText1 = "Good Morning ";
+                    let name = "Sayak";
+                    let name1 = "Ashutosh";
+                    let name2 = "Meghoneel";
+                    let name3 = "Debayan";
+
+                    greet(name, greetText1);
+                    greet(name1, greetText1);
+                    greet(name2, greetText1);
+                    greet(name3, );
+
+                    function sum(a,b,c){
+                        let d = a+b+c;
+                        return d;
+                        // This below line won't be printed because the function ends in return
+                        // console.log("Function is not returned");
+                    }
+                    let returnVal=sum(1,2,3);
+                    console.log(returnVal);
+
+                </script>
+            </div>
+
+
+        </body>
+    </html>

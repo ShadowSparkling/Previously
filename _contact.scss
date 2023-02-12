@@ -1,0 +1,38 @@
+.contact{
+    height: 90%;
+    padding-top: 40vh;
+    line-height: 1rem;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+    linear-gradient(
+        to right, rgba($primary-color, 0.8), rgba($primary-color, 0.3)
+    );
+    background-image: url("../dist/images/manmodel.jpg") center top;
+    background-size: cover;
+
+    h2{
+        font-size: 3rem;
+        margin: -6rem auto 6rem;
+
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.2rem;
+
+        .text-secondary{
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+
+    .social-icons{
+        position: initial;
+        margin-top: 1.2rem;
+    }
+}

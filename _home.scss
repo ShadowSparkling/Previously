@@ -1,0 +1,36 @@
+@import 'config';
+
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    line-height: 2rem;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: 
+    linear-gradient(
+        to right, rgba($primary-color, 0.8), rgba($primary-color, 0.3)
+    );
+    background-image: url("../dist/images/manmodel.jpg") center top;
+    background-size: cover;
+
+    h2{
+        margin-bottom: 20px;
+    }
+    h3{
+        color: cyan;
+    }
+
+    &__name{
+        color: black;
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid set-text-color($primary-color);
+
+        &--last{
+            color: $secondary-color;
+            font-weight: 700;
+        }
+    }
+}

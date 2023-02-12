@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        body{
+            background-color: yellow ;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        *{
+                box-sizing: border-box;
+        }
+        .container{
+            background-color: red;
+            border: 5px solid rgb(0, 0, 0);
+            width: 600px;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .items{
+            border-radius: 20px;
+            background-color: rgb(79, 158, 226);
+            border: 5px solid rgb(0, 0, 0);
+            margin: 12px 4px;
+            padding: 12px 20px;
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+
+        #computer{
+            float: right;
+            width: 48%;
+        }
+
+        #pencil{
+            /* float: left; */
+            clear: both;
+            width: 96%;
+        }
+        p, h3{
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+        }
+        h1{ color: white;
+            width: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to mi tienda</h1>
+        <div class="items" id="fruit">
+            <h3>Fruits</h3>
+            <p class="para" id="fruitspara">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dicta magnam quo tempora atque fugiat consequatur et sapiente optio. Aperiam laboriosam voluptate non adipisci impedit cumque nihil id, labore a earum reprehenderit fugiat inventore!</p>
+        </div>
+
+        
+        <div class="items" id="computer">
+            <h3>Computer</h3>
+            <p class="para" id="computerpara">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dicta magnam quo tempora atque fugiat consequatur et sapiente optio. Aperiam laboriosam voluptate non adipisci impedit cumque nihil id, labore a earum reprehenderit fugiat inventore!</p>
+        </div>
+
+        
+        <div class="items" id="pencil">
+            <h3>Pencil</h3>
+            <p class="para" id="pencilpara">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dicta magnam quo tempora atque fugiat consequatur et sapiente optio. Aperiam laboriosam voluptate non adipisci impedit cumque nihil id, labore a earum reprehenderit fugiat inventore!</p>
+        </div>
+
+    </div>
+</body>
+</html>
