@@ -1,0 +1,16 @@
+@media only screen and (max-width:800px){
+    .Header h1 a, .Header h1 a:hover, .Header h1 a:visited{
+        top: 59px;
+        left: 140px;
+        font-size: 1.2em;
+
+    }
+    div.widget.Blog .blog-posts .post-outer-container{
+        position: relative;
+        padding: 15px;
+        top: 40px;
+    }
+    .centered-top-container.sticky{
+        display: none;
+    }
+}

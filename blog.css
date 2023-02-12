@@ -1,0 +1,204 @@
+.hero-post-snippet .snippet-item {
+    color: black;
+    line-height: 60px;
+}
+
+.published{
+    color:#000000
+}
+
+.heroPost .byline, .heroPost .byline a, .heroPost .flat-button {
+    color: #000000;
+}
+
+.hero-post-snippet .snippet-item {
+    color: black;
+}
+
+.post-header-container .byline, .post-header-container .byline a {
+    color: #000000;
+    font: normal bold 20px Open Sans, sans-serif;
+}
+
+.byline, .byline a, .flat-button {
+    border-radius: 10px;
+    color: #1b00ff;
+    font: normal bold 16px Allerta Stencil;
+    background-color: #fbff00;
+    border: 3px solid black;
+}
+
+.post-snippet .snippet-fade{
+background: -webkit-linear-gradient(left,#ffffff 0,#ffffff 20%,rgba(255, 255, 255, 0) 100%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: linear-gradient(to left,#ffffff 0,#ffffff 20%,rgb(255 255 255 / 28%) 60%, transparent 100%);
+    color: #1a1a1a;
+    height: 49px;
+}
+
+.hero-post-snippet .snippet-fade{
+background: -webkit-linear-gradient(left,#0d00ff 0,#0d00ff 20%,rgba(13, 0, 255, 0) 100%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: linear-gradient(to left,#ffffff 0,#ffffffb0 25%,rgba(13, 0, 255, 0) 100%);
+    color: #000000;
+    height: 60px;}
+
+
+
+.blog-pager {
+    float: left;}
+    
+.widget.Label .list-label-widget-content li a {
+    color: #cc00ff;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.post-header-container .byline, .post-header-container .byline a {
+    color: #ffffff;
+    font: normal bold 20px Open Sans, sans-serif;
+}
+
+.heroPost .big-post-title {
+    background: #8f0ed1;
+    display: block;
+    max-width: none;
+    padding: 24px;
+}
+
+body.item-view .Blog .post-body-container {
+    padding-right: 0px;
+    position: relative;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+
+.post-outer{    
+    background: linear-gradient(
+    218deg, #00ffd0, #04ff00);
+    padding: 25px ;
+    border-radius: 5%;
+    border:4px solid black;}
+.post-outer{    margin-right: 47px; 
+    margin-left: -76px;
+}
+.post-title{
+    text-decoration: underline solid blue;}
+.feed-message{color: black;
+        background: linear-gradient(
+    45deg, #00ff14, #fff706);
+        padding: 30px;
+        border-radius: 10%;
+        right: 65px;
+    }
+
+.search div{color: blue;
+    font-size: 28px;
+}
+.centered-top{
+    padding: 39px 103px 5px 76px;    
+}
+.sticky .centered-top{
+    padding: 20px 5px;
+}
+.post-snippet .snippet-item {
+    line-height: 40px;
+    width: 700px;
+}
+a.flat-button.ripple:hover {
+    background-color: yellow;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: 1s;
+    
+}
+.flat-button.ripple:hover {
+    border-radius: 10px;
+    background-color: #ffff4f;
+}
+.blog-pager .blog-pager-older-link {
+    color: #0d00ff;
+    left: 400px;
+    float: right;
+    font: bold 20px Allerta Stencil;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.widget.Attribution .blogger {
+    display: none;
+    margin: 0px;
+
+}
+.post-outer{right: 70px;}
+
+
+/*For INDIVIDUAL PAGE*/
+body.item-view .Blog .post-title-container {
+    border-radius: 40px;
+    background-color: #0d00ff;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+    width: 94%;
+    padding: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+body.item-view .Blog .post-header>* {
+    position: relative;
+    /* color: green; */
+    top: 50%;
+    right: 30%;
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+body.item-view .Blog .post-body-container {
+    padding-right: 0px; 
+    position: relative;
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+body.item-view .Blog .post-body {
+    margin-bottom: 0;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 127px;}
+
+    body.item-view #comments h3.title {
+    margin-top: 20px;
+    color: #000000;
+    font: normal 603 25px Open Sans, sans-serif;
+    margin-bottom: 20px;
+    }
+.post-snippet .snippet-item {
+    line-height: 39px;
+    font-size: 20px;
+}    
+
+body.item-view .Blog .post-body-container .post-sidebar .sharing-button {
+    display: inline-block;
+    left: 140px;
+    font-size: 20px;
+    padding: 20px;
+}
+#sharing-button-Blog1-byline-3395377220262171729{
+    left: 275px;
+    font-size: 30px;
+    padding: 17px;
+    bottom: 42px;
+}
+.heroPost .byline, .heroPost .byline a, .heroPost .flat-button {
+    color: #ffffff;
+}
+.heroPost .flat-button.ripple:hover {
+    padding: 10px;
+    background-color: rgb(224 12 255);}

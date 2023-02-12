@@ -1,0 +1,62 @@
+.post-title, .post-title a, .post-title a:hover, .post-title a:visited {
+    color: cyan;
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: underline solid cyan;
+    font-style: normal;
+}
+
+.Header h1 a, .Header h1 a:hover, .Header h1 a:visited {
+    font-size: 1em;
+    color: #ffffff;
+    position: relative;
+    top: 10px;
+    left: 0;
+    background-color: yellow;
+    padding: 10px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    border-radius: 20px;
+    border: 5px solid black;
+    outline: 4px solid white;
+    margin: 10px;}
+    
+
+@media only screen and (max-width:800px){
+    .Header h1 a, .Header h1 a:hover, .Header h1 a:visited{
+        top: 59px;
+        left: 140px;
+        font-size: 1.2em;
+
+    }
+    div.widget.Blog .blog-posts .post-outer-container{
+        position: relative;
+        padding: 15px;
+        top: 40px;
+    }
+.centered-top-container.sticky{
+        display: none;
+    }
+}
+
+.share-buttons li .platform-sharing-text {
+    padding: 3px 10px;
+    color: black;
+    margin-left: 56px;
+    background: linear-gradient(270deg, #2107ff, cyan);
+    font-weight: 900;
+}
+.share-buttons li svg[class*=" sharing-"], .share-buttons li svg[class^=sharing-] {
+    padding: 15px 22px;
+    position: absolute;
+    background: linear-gradient(270deg, cyan, #1b00ff);
+    top: 12px;
+}
+.Label li, .Label span.label-size, .byline.post-labels a {
+    background-color: #ff0000;
+    border: 3px solid #ffffff;
+    border-radius: 13px;
+    display: inline-block;
+    margin: 4px 4px 4px 0;
+    padding: 5px 10px;
+}
