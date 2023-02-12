@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+        background-color: yellow;
+    }
+    p {
+        text-align: center;
+        font-size: 5em;
+        margin-top: 0px;
+    }
+
+    #timer{
+        margin: auto auto;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 9rem;
+        font-weight: bold;
+        min-height: 100vh;
+        font-family: MONOSPACE;
+    }
+</style>
+</head>
+<body>
+<p id="timer"></p>
+
+<script>
+// Set the date we're counting down to
+    function addMinutes(numofMin, previousdate = new Date()){
+        previousdate.setMinutes(previousdate.getMinutes() + numofMin);
+
+        return previousdate;
+    }
+var countDownDate = addMinutes(10);
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var milli = Math.floor((distance % (1000)));
+    
+    // Output the result in an element with id="demo"
+    var timer = document.getElementById("timer");
+
+    timer.innerHTML = hours + "h   "
+    + minutes + "m  " + seconds + "s   " + milli + "ms";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        timer.innerHTML = "EXPIRED";
+    }
+}, 0001);
+
+
+//Full screen making function
+// function openFullscreen() {
+//     if (timer.requestFullscreen) {
+//     timer.requestFullscreen();
+//     } 
+// }
+
+</script>
+
+</body>
+</html>
